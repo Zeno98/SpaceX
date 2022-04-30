@@ -1,0 +1,84 @@
+.filters{
+background-color: white;
+border-radius: 10px;
+}
+.clearAll{
+    cursor: pointer;
+    float: right;
+}
+.year{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: normal;
+}
+.landing{
+    font-weight: normal;
+    text-align: center;
+    text-decoration: underline;
+}
+.launching{
+    font-weight: normal;
+    text-align: center;
+    text-decoration: underline;
+}
+.years{
+    padding-top: 5px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    flex-direction: column;
+    width: 50%;
+}
+.right{
+    width: 50%;
+}
+
+.left-btn{
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgb(155, 246, 155);
+    width: 70px;
+    height: 27px;
+    border: none;
+}
+.right-btn{
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgb(155, 246, 155);
+    width: 70px;
+    height: 27px;
+    border: none;
+}
+
+.launching-btn{
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgb(155, 246, 155);
+    width: 70px;
+    height: 27px;
+    border: none;
+
+}
+.landing-btn{
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgb(155, 246, 155);
+    width: 70px;
+    height: 27px;
+    border: none;
+
+}
+
+.launch-btn{
+    padding-top: 5px;
+    margin: 0 40px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,28 @@
+.card-style{
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    margin: 10px 10px;
+    max-width: 200px;
+    
+    
+}
+.img{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+}
+
+.card-body{
+    background-color: white;
+
+    
+}
+.title{
+    color: rgb(65, 65, 195);
+}
+
+.filter{
+    flex:1;
+}

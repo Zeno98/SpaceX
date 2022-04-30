@@ -1,0 +1,53 @@
+.card{
+    display: flex;
+    justify-content: space-between;
+}
+  @media (max-width:700px){
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .eachItem{
+        flex:1;
+        padding: 10px;
+        justify-content: auto;
+        justify-items: auto;
+    }
+    
+  }
+  @media (max-width:1024px){
+    .card{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        
+    }
+    .filter{
+        padding-top: 2%;
+        padding-right: 5%;
+        display: flex;
+        width: 20%;
+        
+    }
+    
+  }
+.filter{
+    padding-top: 2%;
+    display: flex;
+    width: 20%;
+    margin-bottom: 1%;
+    
+}
+
+.content{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+.eachItem{
+    flex:1;
+    padding: 10px;
+}
